@@ -41,32 +41,23 @@ Follow these steps to run the project locally:
 git clone https://github.com/abdulhannan-o1/weather-app.git
 cd weather-app
 ```
-2. 📁 Install Dependencies
+### 2. 📁 Install Dependencies
+```bash
+  npm install
+```
+### 3. 🔐 Add API Key
+```bash
+VITE_API_KEY=your_api_key_here
+```
+### 4. ▶️ Run the App
  ```bash
-   npm install
+ npm run dev
  ```
-3. 🔐 Add API Key
-   ```bash
-   VITE_API_KEY=your_api_key_here
-   ```
- 4. ▶️ Run the App
-      ```bash
-      npm run dev
-      ```
-5. 🛠️ Build for Production
-      ```bash
-      npm run build
-      ```
-📁 Folder Structure
-   weather-app/
-│
-├── public/              # Static files
-├── src/
-│   ├── App.jsx          # Main app component
-│   ├── index.css        # Global styles
-│   └── main.jsx         # Entry point
-├── .env                 # Environment variables
-└── vite.config.js       # Vite configuration
+### 5. 🛠️ Build for Production
+```bash
+npm run build
+```
+
 
 ✨ Contributing
 Feel free to fork the project and submit pull requests. All contributions are welcome! 🤝
