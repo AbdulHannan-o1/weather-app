@@ -8,7 +8,7 @@ Welcome to the **Weather App** 🌍! This is a simple and responsive weather for
 
 ## 📸 Screenshots
 
-> *Add screenshots here (optional)*
+![image](https://github.com/user-attachments/assets/3c473f86-eba0-443c-a98c-84aab5f7372a)
 
 ---
 
@@ -49,15 +49,15 @@ cd weather-app
    ```bash
    VITE_API_KEY=your_api_key_here
    ```
-   4. ▶️ Run the App
+ 4. ▶️ Run the App
       ```bash
       npm run dev
       ```
-   5. 🛠️ Build for Production
+5. 🛠️ Build for Production
       ```bash
       npm run build
       ```
-   📁 Folder Structure
+📁 Folder Structure
    weather-app/
 │
 ├── public/              # Static files
